@@ -3,6 +3,7 @@ describe("Using a queue", function(){
     it("you should be able to enqueue values and get it back", function (){
 
         const queue = Queue();
+        console.log(queue)
         queue.enqueue('cat');
         queue.enqueue('cow');
         queue.enqueue('giraffe');
@@ -16,7 +17,7 @@ describe("Using a queue", function(){
 
     it("you should be able to instantiate an empty stack", function (){
         const queue = Queue();
-        assert.equal(undefined, queue.pop());
+        assert.equal(undefined, queue.dequeue());
     });
     
 })

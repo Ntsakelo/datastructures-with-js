@@ -1,3 +1,6 @@
+
+[![pages-build-deployment](https://github.com/ZeenatA18/datastructures-with-js/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ZeenatA18/datastructures-with-js/actions/workflows/pages/pages-build-deployment)
+
 # Linked lists in JavaScript
 
 Learn about data structures implementing a Stack, Queue & finally a LinkedList.
